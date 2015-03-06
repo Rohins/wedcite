@@ -1,0 +1,18 @@
+mixin nav-link(nav,nav_value,href_value,link_text)
+  if nav === nav_value
+    li.active(role='presentation')
+      a(href=href_value)= link_text
+  else
+    li(role='presentation')
+      a(href=href_value)= link_text
+  
+.header
+  nav
+    ul.nav.nav-pills.pull-right
+      +nav-link(nav,"welcome","/","Welcome")
+      +nav-link(nav,"event","/event","Event Details")
+      +nav-link(nav,"party","/party","Wedding Party")
+      +nav-link(nav,"registry","/registry","Registry")
+      +nav-link(nav,"rsvp","/rsvp","RSVP")
+
+  h3.text-muted .

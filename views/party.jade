@@ -1,0 +1,75 @@
+doctype html(lang='en')
+include ./includes/head.jade
+body
+  - var nav = "party"
+  .container
+    include ./includes/nav.jade
+    .jumbotron
+      h1
+         |Wedding Party           
+
+    .row.party.no-margin
+      .col-lg-6
+        .row
+          .col-lg-6.col-md-offset-3
+            h4 Groom
+            .groom-side                       
+            p Ricardo Rodriguez
+                       
+            h4 Best Man
+            .groom-side                       
+            p Kyle Johns         
+
+        h4 Groomsmen
+        .row           
+          .col-lg-6
+            .groom-side                       
+            p Daniel Gonzalez
+            .groom-side                       
+            p David Hanna
+          .col-lg-6
+            .groom-side                       
+            p Devin Albano
+            .groom-side                       
+            p Jonathan Novi
+
+        .row
+          .col-lg-6.col-md-offset-3
+            h4 Ring Bearer
+            .groom-side                       
+            p Lucas Parente
+               
+      .col-lg-6.center-block
+        .row
+          .col-lg-6.col-md-offset-3
+            h4 Bride
+            .bride-side                       
+            p Cindy Cheung
+                       
+            h4 Matron of Honor
+            .bride-side                       
+            p Michelle Parente
+
+        h4 Bridesmaids
+                   
+        .row           
+          .col-lg-6
+            .bride-side                       
+            p Linda Chou
+            .bride-side                       
+            p Susan Chou
+          .col-lg-6
+            .bride-side                       
+            p Michelle Au Yeung
+            .bride-side                       
+            p Celine Hsu
+
+        .row
+          .col-lg-6.col-md-offset-3
+            h4 Flower Girl
+            .bride-side                       
+            p Valenzia Gonzalez
+
+    include ./includes/footer.jade       
+  // /container
+

@@ -1,0 +1,144 @@
+/* Space out content a bit */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+  color: white;
+  background-color: #1BD8BC;
+  font-family: "Belleza";
+  font-size:2em;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.party, .sub-content {
+  background-color: rgba(0, 0, 0, 0.6);;
+  border-radius: 6px;
+}
+
+.party p {
+  font-size: 0.5em;
+}
+.party p, .party h4 {
+  text-align:center;
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  padding-bottom: 19px;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  border-top: 1px solid #e5e5e5;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+  background-color: rgba(0, 0, 0, 0.6);;
+}
+.jumbotron h1 {
+  font-family: "Great Vibes"
+}
+.jumbotron .btn {
+  padding: 14px 24px;
+  font-size: 21px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+.nav-pills li.active a {
+  background-color: rgba(0, 0, 0, 0.57);
+}
+
+.nav-pills li.active a:hover {
+  background-color: rgba(0, 0, 0, 0.40);
+}
+
+.nav-pills li a:hover {
+  background-color: rgba(0, 0, 0, 0.40);
+  color: white;
+}
+
+
+a {
+  color: black;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+
+.groom-side {
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+  -webkit-border-radius: 75px;
+  -moz-border-radius: 75px;
+  background: url("../images/groomside.png") no-repeat;
+}
+
+.bride-side {
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+  -webkit-border-radius: 75px;
+  -moz-border-radius: 75px;
+  background: url("../images/brideside.png") no-repeat;
+}
+
+.no-margin {
+  margin: 0 0;
+}
+
+p.registry {
+  margin: 0.5em 0;
+}
